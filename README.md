@@ -42,36 +42,3 @@ Node.js (versão LTS recomendada)
 npm ou yarn
 
 Expo CLI (integrado localmente ao projeto)
-
-Passos para Instalação:
-
-Clone o repositório:
-
-git clone https://github.com/SeuUsuario/ProjetoAppReact.git
-Entre na pasta do projeto:
-
-cd ProjetoAppReact
-Instale as dependências:
-
-npm install
-Inicie o projeto:
-
-npx expo start
-Você poderá escolher executar o aplicativo:
-
-Em um dispositivo móvel utilizando o aplicativo Expo Go;
-
-Emulador Android com npm run android;
-
-Emulador iOS (em macOS) com npm run ios;
-
-Pelo navegador com npm run web.
-
-Estrutura do Projeto:
-
-ProjetoAppReact/
-├── App.js            # Arquivo principal do aplicativo
-├── package.json      # Gerenciamento de dependências e scripts
-├── node_modules/     # Módulos instalados
-├── app.json          # Configurações do Expo para o projeto
-└── README.md         # Este arquivo de documentação
